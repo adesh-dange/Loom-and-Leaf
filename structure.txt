@@ -1,0 +1,108 @@
+loom-and-leaf/
+│
+├── app/
+│   │
+│   ├── page.jsx
+│   │
+│   ├── shop/
+│   │   └── page.jsx
+│   │
+│   ├── categories/
+│   │   └── [category]/
+│   │       └── page.jsx
+│   │
+│   ├── product/
+│   │   └── [id]/
+│   │       └── page.jsx
+│   │
+│   ├── search/
+│   │   └── page.jsx
+│   │
+│   ├── deals/
+│   │   └── page.jsx
+│   │
+│   ├── wishlist/
+│   │   └── page.jsx
+│   │
+│   ├── cart/
+│   │   └── page.jsx
+│   │
+│   ├── checkout/
+│   │   └── page.jsx
+│   │
+│   ├── orders/
+│   │   ├── page.jsx
+│   │   └── [id]/
+│   │       └── page.jsx
+│   │
+│   ├── account/
+│   │   ├── page.jsx
+│   │   ├── profile/
+│   │   ├── addresses/
+│   │   ├── payments/
+│   │   └── notifications/
+│   │
+│   ├── login/
+│   │   └── page.jsx
+│   │
+│   ├── register/
+│   │   └── page.jsx
+│   │
+│   ├── about/
+│   │   └── page.jsx
+│   │
+│   └── contact/
+│       └── page.jsx
+│
+├── components/
+│   │
+│   ├── navbar/
+│   ├── footer/
+│   ├── hero/
+│   ├── product/
+│   ├── product-card/
+│   ├── product-gallery/
+│   ├── filters/
+│   ├── search/
+│   ├── cart/
+│   ├── wishlist/
+│   ├── checkout/
+│   ├── reviews/
+│   ├── ratings/
+│   ├── orders/
+│   ├── profile/
+│   ├── notifications/
+│   ├── modals/
+│   └── animations/
+│
+├── data/
+│   ├── products.js
+│   ├── categories.js
+│   ├── reviews.js
+│   └── offers.js
+│
+├── hooks/
+│   ├── useCart.js
+│   ├── useWishlist.js
+│   ├── useSearch.js
+│   └── useProducts.js
+│
+├── context/
+│   ├── CartContext.jsx
+│   ├── WishlistContext.jsx
+│   └── AuthContext.jsx
+│
+├── lib/
+│   ├── api.js
+│   └── utils.js
+│
+├── public/
+│   ├── images/
+│   ├── products/
+│   ├── icons/
+│   └── 3d/
+│
+├── styles/
+│   └── globals.css
+│
+└── package.json
