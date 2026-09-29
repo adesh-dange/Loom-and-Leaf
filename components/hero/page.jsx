@@ -10,7 +10,7 @@ const categories = [
   "Beauty",
 ];
 
-export default function Hero() {
+export default function Hero()  {
   return (
     <section className="relative min-h-[calc(100vh-76px)] overflow-hidden bg-[#F7ADAD]/30">
       {/* BACKGROUND SHAPES */}
@@ -35,7 +35,7 @@ export default function Hero() {
             </span>
           </div>
 
-          {/* HEADING */}
+          {/*  */}
           <h1 className="max-w-3xl text-5xl font-bold leading-[1.02] tracking-tight text-[#800020] sm:text-6xl lg:text-7xl xl:text-8xl">
             Discover
             <br />
